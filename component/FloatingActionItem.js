@@ -87,7 +87,7 @@ class FloatingActionItem extends Component {
     }
 
     return (
-      <View key="button" style={[styles.button, { backgroundColor: color, width : size, height : size }]}>
+      <View key="button" style={[styles.button, {backgroundColor: color, width : 60, height : 60 }]}>
         {
           React.isValidElement(icon) ? icon : <Image style={iconStyle} source={icon} />
         }
@@ -165,7 +165,7 @@ FloatingActionItem.defaultProps = {
   distanceToEdge: 30,
   textColor: '#444444',
   textBackground: '#ffffff',
-  size : 40
+  size : 60
 };
 
 const styles = StyleSheet.create({
@@ -189,7 +189,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     borderRadius: 4,
     height: 22,
-    marginTop: 8
+    marginTop: 20
   },
   leftTextContainer: {
     marginLeft: 14
@@ -214,8 +214,8 @@ const styles = StyleSheet.create({
   },
   icon: {
     resizeMode: 'contain',
-    width: 45,
-    height: 45
+    width: 60,
+    height: 60
   }
 });
 

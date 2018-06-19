@@ -2,7 +2,7 @@
   "_from": "git+https://git@github.com/1fabiopereira/react-native-floating-action.git",
   "_id": "react-native-floating-action@1.10.1",
   "_inBundle": false,
-  "_integrity": "sha1-R6jCR+DsyX2VDHZynTszXDTUcFM=",
+  "_integrity": "sha1-RPWyEfX3SQ28gPe2Kklaa/K12zw=",
   "_location": "/react-native-floating-action",
   "_phantomChildren": {},
   "_requested": {
@@ -18,7 +18,7 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "git+https://git@github.com/1fabiopereira/react-native-floating-action.git#862e98a81b4bc0411a12bd8fbc6741c4df82a252",
+  "_resolved": "git+https://git@github.com/1fabiopereira/react-native-floating-action.git#173ad295bcf49524cb2252018598811e0a26416a",
   "_spec": "react-native-floating-action@git+https://git@github.com/1fabiopereira/react-native-floating-action.git",
   "_where": "/Users/fabio/Documents/apps/climatempo-lite",
   "author": {

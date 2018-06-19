@@ -391,7 +391,8 @@ const styles = StyleSheet.create({
     borderRadius: 28,
     alignItems: 'center',
     justifyContent: 'center',
-    position: 'absolute'
+    position: 'absolute',
+    marginRight: 8
   },
   button: {
     zIndex: 3,
