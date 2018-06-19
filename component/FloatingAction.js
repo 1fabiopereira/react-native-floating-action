@@ -81,7 +81,7 @@ class FloatingAction extends Component {
       return <Image style={styles.buttonIcon} source={floatingIcon} />;
     }
 
-    return <Image style={styles.buttonIcon} source={require('../images/add.png')} />;
+    return <Image style={styles.buttonIcon} source={require('../images/icon.png')} />;
   };
 
   handlePressItem = (itemName) => {
@@ -181,7 +181,7 @@ class FloatingAction extends Component {
       transform: [{
         rotate: this.animation.interpolate({
           inputRange: [0, 1],
-          outputRange: ['0deg', '45deg']
+          outputRange: ['0deg', '90deg']
         })
       }]
     };
@@ -391,14 +391,6 @@ const styles = StyleSheet.create({
     borderRadius: 28,
     alignItems: 'center',
     justifyContent: 'center',
-    shadowOpacity: 0.35,
-    shadowOffset: {
-      width: 0,
-      height: 5
-    },
-    shadowColor: '#000000',
-    shadowRadius: 3,
-    elevation: 5,
     position: 'absolute'
   },
   button: {

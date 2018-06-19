@@ -1,36 +1,36 @@
 {
-  "name": "react-native-floating-action",
-  "version": "1.10.1",
-  "description": "floating action component for react-native",
-  "main": "index.js",
-  "directories": {
-    "example": "example"
-  },
-  "scripts": {
-    "run:example": "cd example/ReactNativeFloatingAction-Expo && yarn install && exp start"
-  },
-  "repository": {
+  "_from": "git+https://git@github.com/1fabiopereira/react-native-floating-action.git",
+  "_id": "react-native-floating-action@1.10.1",
+  "_inBundle": false,
+  "_integrity": "sha1-R6jCR+DsyX2VDHZynTszXDTUcFM=",
+  "_location": "/react-native-floating-action",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "git+https://github.com/santomegonzalo/react-native-floating-action.git"
+    "raw": "react-native-floating-action@git+https://git@github.com/1fabiopereira/react-native-floating-action.git",
+    "name": "react-native-floating-action",
+    "escapedName": "react-native-floating-action",
+    "rawSpec": "git+https://git@github.com/1fabiopereira/react-native-floating-action.git",
+    "saveSpec": "git+https://git@github.com/1fabiopereira/react-native-floating-action.git",
+    "fetchSpec": "https://git@github.com/1fabiopereira/react-native-floating-action.git",
+    "gitCommittish": "master"
   },
-  "keywords": [
-    "react-native",
-    "action-button",
-    "floating-action",
-    "material-design",
-    "float-action"
+  "_requiredBy": [
+    "/"
   ],
-  "author": "Gonzalo Santome",
-  "license": "MIT",
+  "_resolved": "git+https://git@github.com/1fabiopereira/react-native-floating-action.git#862e98a81b4bc0411a12bd8fbc6741c4df82a252",
+  "_spec": "react-native-floating-action@git+https://git@github.com/1fabiopereira/react-native-floating-action.git",
+  "_where": "/Users/fabio/Documents/apps/climatempo-lite",
+  "author": {
+    "name": "Gonzalo Santome"
+  },
   "bugs": {
     "url": "https://github.com/santomegonzalo/react-native-floating-action/issues"
   },
-  "homepage": "https://github.com/santomegonzalo/react-native-floating-action#readme",
+  "bundleDependencies": false,
   "dependencies": {},
-  "peerDependencies": {
-    "prop-types": ">=15.5.10",
-    "react-native": ">=0.45"
-  },
+  "deprecated": false,
+  "description": "floating action component for react-native",
   "devDependencies": {
     "babel-eslint": "8.2.2",
     "babel-plugin-transform-react-jsx-source": "^6.22.0",
@@ -43,5 +43,31 @@
     "eslint-plugin-import": "2.9.0",
     "eslint-plugin-jsx-a11y": "6.0.3",
     "eslint-plugin-react": "7.7.0"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "homepage": "https://github.com/santomegonzalo/react-native-floating-action#readme",
+  "keywords": [
+    "react-native",
+    "action-button",
+    "floating-action",
+    "material-design",
+    "float-action"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-floating-action",
+  "peerDependencies": {
+    "prop-types": ">=15.5.10",
+    "react-native": ">=0.45"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santomegonzalo/react-native-floating-action.git"
+  },
+  "scripts": {
+    "run:example": "cd example/ReactNativeFloatingAction-Expo && yarn install && exp start"
+  },
+  "version": "1.10.1"
 }

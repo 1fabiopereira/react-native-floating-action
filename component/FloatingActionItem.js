@@ -53,17 +53,16 @@ class FloatingActionItem extends Component {
           style={[
             styles.textContainer,
             styles[`${position}TextContainer`],
-            {
-              backgroundColor: textBackground,
-              elevation: textElevation || elevation
-            }]
+            {backgroundColor: textBackground}
+            ]
           }
         >
           <Text
             style={[
               styles.text,
               {
-                color: textColor
+                color: textColor,
+                fontSize: 18
               }
             ]}
           >
@@ -164,7 +163,6 @@ FloatingActionItem.propTypes = {
 FloatingActionItem.defaultProps = {
   color: '#1253bc',
   distanceToEdge: 30,
-  textElevation: 5,
   textColor: '#444444',
   textBackground: '#ffffff',
   size : 40
@@ -172,12 +170,10 @@ FloatingActionItem.defaultProps = {
 
 const styles = StyleSheet.create({
   container: {
-    elevation: 0,
     flex: 1,
     flexDirection: 'column'
   },
   actionContainer: {
-    elevation: 0,
     flex: 1,
     flexDirection: 'row',
     paddingLeft: 10,
@@ -191,14 +187,6 @@ const styles = StyleSheet.create({
   },
   textContainer: {
     paddingHorizontal: 8,
-    shadowOpacity: 0.35,
-    shadowOffset: {
-      width: 0,
-      height: 5
-    },
-    shadowColor: '#000000',
-    shadowRadius: 3,
-    elevation: 5,
     borderRadius: 4,
     height: 22,
     marginTop: 8
@@ -216,15 +204,7 @@ const styles = StyleSheet.create({
   button: {
     alignItems: 'center',
     justifyContent: 'center',
-    borderRadius: 20,
-    shadowOpacity: 0.35,
-    shadowOffset: {
-      width: 0,
-      height: 5
-    },
-    shadowColor: '#000000',
-    shadowRadius: 3,
-    elevation: 5
+    borderRadius: 20
   },
   iconLogo: {
     resizeMode: 'cover',
@@ -234,8 +214,8 @@ const styles = StyleSheet.create({
   },
   icon: {
     resizeMode: 'contain',
-    width: 20,
-    height: 20
+    width: 40,
+    height: 40
   }
 });
 
