@@ -214,8 +214,8 @@ const styles = StyleSheet.create({
   },
   icon: {
     resizeMode: 'contain',
-    width: 40,
-    height: 40
+    width: 45,
+    height: 45
   }
 });
 
